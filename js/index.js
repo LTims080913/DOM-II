@@ -127,3 +127,11 @@ childElement.forEach( e => {
         event.stopPropagation();
     })
 })
+
+//!!!!STRETCH GOAL!!!!
+
+let draggable1 = document.getElementById('dragPic1');
+Draggable.create('#dragPic1');
+
+let draggable2 = document.getElementById('dragPic2');
+Draggable.create('#dragPic2');
